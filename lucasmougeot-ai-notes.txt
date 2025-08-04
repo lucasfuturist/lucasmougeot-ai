@@ -1,0 +1,1 @@
+python "C:\dev-utils\list_tree.py" "C:\projects\lucasmougeot-ai\src" --depth 3 --suppress node_modules --list-scripts .ts .txt .tsx .js .jsx .py .html .json .css .sql .toml .ps1 --output "C:\projects\lucasmougeot-ai\reports\current-lucasmougeot-ai-website.md"
