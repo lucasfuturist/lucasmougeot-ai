@@ -1,59 +1,76 @@
 // src/app/consulting/page.tsx
-
-// THIS IS THE MOST IMPORTANT LINE!
-// It tells Next.js to treat this as a component that can run in the browser.
 "use client"; 
 
 import { useState } from 'react';
-import ContactModal from '@/components/ContactModal'; // Adjust path if needed
+import ContactModal from '@/components/ContactModal';
 
 export default function ConsultingPage() {
-  // State to control whether the modal is open or closed
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
     <>
       <main className="min-h-screen bg-gray-900 text-white">
         <div className="max-w-4xl mx-auto p-8 sm:p-16">
-          {/* ... all the header, value prop, and expertise sections are the same ... */}
           
-          {/* Header Section */}
           <div className="text-center pb-12 border-b border-gray-700">
-            <h1 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">
+            <h1 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400 pb-2">
               MougAI Consulting
             </h1>
-            <p className="mt-4 text-xl text-gray-300">
-              Enterprise-Grade AI Integration & Strategy
+            <p className="mt-4 text-xl text-gray-300 pb-2">
+              Ethically-Grounded AI that Uplifts Humanity with Purpose and Meaning
             </p>
           </div>
 
-          {/* Value Proposition Section */}
           <div className="py-12 border-b border-gray-700">
             <h2 className="text-3xl font-bold text-center">
-              From Prototype to Production
+              Architecting Innovation
             </h2>
             <p className="mt-6 text-lg text-gray-300 leading-relaxed">
-              I specialize in bridging the gap between cutting-edge AI research and practical, high-value business applications. My experience as an Integration Engineer at EZ Systems involved leading R&D on client-facing prototypes, architecting modular multi-model systems for stable, long-term learning, and delivering mixed-reality (MR) and AI demos that directly drove new federal contracts.
+              Innovation isn't a happy accident; it's an engineered outcome. My background, spanning from Materials Engineering to AI Systems Architecture, provides a unique framework for deconstructing complex challenges and building robust, first-principle solutions for your business.
             </p>
             <p className="mt-4 text-lg text-gray-300 leading-relaxed">
-              My consultancy provides the technical horsepower and strategic insight to de-risk your AI initiatives and accelerate your time-to-market.
+              This technical foundation is guided by a core mission: to build AI that is not only powerful but also purposeful. I focus on creating interpretable, human-centric systems designed to counteract the dystopian hype cycle and deliver tangible, ethical value. True innovation should uplift, not just disrupt.
             </p>
           </div>
 
-          {/* Services & Expertise Section */}
           <div className="py-12 border-b border-gray-700">
-            <h2 className="text-3xl font-bold text-center mb-8">Core Expertise</h2>
-            <ul className="grid grid-cols-1 md:grid-cols-2 gap-6 text-lg">
-              <li className="bg-gray-800 p-4 rounded-lg border border-gray-700">AI-Based Compliance Auditing (ADA, etc.)</li>
-              <li className="bg-gray-800 p-4 rounded-lg border border-gray-700">Agentic & Multi-Modal System Architecture</li>
-              <li className="bg-gray-800 p-4 rounded-lg border border-gray-700">RAG-Optimized Chatbot Development</li>
-              <li className="bg-gray-800 p-4 rounded-lg border border-gray-700">LLM-Powered Data Parsing & Analysis</li>
-              <li className="bg-gray-800 p-4 rounded-lg border border-gray-700">Explainable AI (XAI) Grant & Proposal Authorship</li>
-              <li className="bg-gray-800 p-4 rounded-lg border border-gray-700">Technical Documentation for Enterprise AI</li>
+            <h2 className="text-3xl font-bold text-center mb-8">Applied Expertise</h2>
+            <p className="text-center text-lg text-gray-400 mb-10 max-w-2xl mx-auto">This philosophy translates directly into practical, high-value capabilities for your business. Here is what we can build together:</p>
+            <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-10">
+              
+              <li className="bg-gray-800 p-6 rounded-lg border border-gray-700">
+                <h3 className="text-xl font-bold text-teal-300">Agentic System & Workflow Design</h3>
+                <p className="mt-2 text-gray-400 text-base">Design autonomous AI agents to automate complex digital workflows, execute multi-step tasks, and unlock new operational efficiencies for your business.</p>
+              </li>
+              
+              <li className="bg-gray-800 p-6 rounded-lg border border-gray-700">
+                <h3 className="text-xl font-bold text-teal-300">Compliance Auditing via Vision/AR</h3>
+                <p className="mt-2 text-gray-400 text-base">Deploy custom computer vision and AR models to perform real-time regulatory and safety audits, dramatically reducing manual oversight and ensuring verifiable compliance.</p>
+              </li>
+              
+              <li className="bg-gray-800 p-6 rounded-lg border border-gray-700">
+                <h3 className="text-xl font-bold text-teal-300">Advanced Context Engineering for LLMs</h3>
+                <p className="mt-2 text-gray-400 text-base">Optimize the performance and reduce the operational costs of your LLMs by engineering the precise context they need to excel at specialized, high-value tasks.</p>
+              </li>
+
+              <li className="bg-gray-800 p-6 rounded-lg border border-gray-700">
+                <h3 className="text-xl font-bold text-teal-300">RAG-Optimized & Interpretable Chatbots</h3>
+                <p className="mt-2 text-gray-400 text-base">Build sophisticated, trustworthy chatbots and internal knowledge systems grounded in your own proprietary data, ensuring accurate answers and eliminating hallucinations.</p>
+              </li>
+              
+              <li className="bg-gray-800 p-6 rounded-lg border border-gray-700">
+                <h3 className="text-xl font-bold text-teal-300">Modular Systems for Online Experiences</h3>
+                <p className="mt-2 text-gray-400 text-base">Architect scalable, component-based platforms for novel online experiences—from AI-powered consultants to intelligent media platforms—ensuring long-term adaptability.</p>
+              </li>
+
+              <li className="bg-gray-800 p-6 rounded-lg border border-gray-700">
+                <h3 className="text-xl font-bold text-teal-300">AI Product Prototyping</h3>
+                <p className="mt-2 text-gray-400 text-base">Rapidly transform your innovative AI concepts into functional, high-fidelity prototypes. Perfect for securing stakeholder buy-in, validating market fit, and de-risking future development.</p>
+              </li>
+
             </ul>
           </div>
 
-          {/* Rate & Contact Section */}
           <div className="py-12 text-center">
             <h2 className="text-3xl font-bold">Engagement & Rates</h2>
             <div className="mt-6 bg-gray-800 border border-teal-500 rounded-lg p-8 max-w-md mx-auto">
@@ -61,12 +78,12 @@ export default function ConsultingPage() {
               <p className="text-5xl font-bold my-2 text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-teal-300">
                 $200<span className="text-2xl text-gray-400">/hr</span>
               </p>
-              <p className="text-gray-400">For strategic planning, system architecture, and hands-on development.</p>
+              {/* THIS IS THE UPDATED DESCRIPTION */}
+              <p className="text-gray-400">For end-to-end projects: from strategic planning and system architecture through deployment, integration, and long-term maintenance.</p>
             </div>
             <div className="mt-8">
-              <p className="text-lg text-gray-300">Ready to build the future of your business?</p>
+              <p className="text-lg text-gray-300">Ready to build with purpose?</p>
               
-              {/* THIS IS THE UPDATED BUTTON */}
               <button 
                 onClick={() => setIsModalOpen(true)}
                 className="mt-4 inline-block bg-teal-500 text-white font-bold py-3 px-8 rounded-lg text-lg hover:bg-teal-600 transition-colors"
@@ -78,7 +95,6 @@ export default function ConsultingPage() {
         </div>
       </main>
 
-      {/* Render the modal component, passing state to it */}
       <ContactModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
     </>
   );

@@ -1,5 +1,5 @@
 // src/app/projects/page.tsx
-// THIS FILE IS NOW COMPLETE, POLISHED, AND BUILD-READY
+// THIS FILE IS NOW UPDATED WITH THE LIVE DEMO LINK
 
 export default function ProjectsPage() {
   return (
@@ -44,7 +44,8 @@ export default function ProjectsPage() {
               <span className="inline-block bg-gray-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-300 mr-2 mb-2">LLM</span>
             </div>
             <div className="mt-6">
-              <a href="YOUR_STREAM_GURU_DEMO_LINK" target="_blank" rel="noopener noreferrer" className="bg-purple-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-purple-700 transition-colors">
+              {/* THIS LINK IS NOW LIVE */}
+              <a href="https://stream-guru-5tgy3cku5-uplios-projects.vercel.app/index.html" target="_blank" rel="noopener noreferrer" className="bg-purple-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-purple-700 transition-colors">
                 View Live Demo
               </a>
             </div>
