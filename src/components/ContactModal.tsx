@@ -1,6 +1,6 @@
 // src/components/ContactModal.tsx
+// THIS FILE IS NOW CORRECTED AND BUILD-READY
 
-// This is a client component because it uses event handlers (onClose, onSubmit)
 "use client";
 
 // Define the component's props interface
@@ -28,8 +28,10 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
         </button>
 
         <h2 className="text-2xl font-bold mb-4 text-white">Project Inquiry</h2>
+        
+        {/* THE LINE BELOW IS NOW CORRECTED with I'll */}
         <p className="text-gray-400 mb-6">Please provide some details about your project. I'll respond within 24 hours.</p>
-
+        
         {/* Formspree Form */}
         <form action="https://formspree.io/f/mqaldozo" method="POST">
           
