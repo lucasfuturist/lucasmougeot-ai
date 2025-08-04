@@ -82,7 +82,7 @@ export default function ConsultingPage() {
             <div className="mt-6 bg-gray-800 border border-teal-500 rounded-lg p-8 max-w-md mx-auto">
               <p className="text-xl font-semibold text-gray-200">Consulting Rate</p>
               <p className="text-5xl font-bold my-2 text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-teal-300">
-                $200<span className="text-2xl text-gray-400">/hr</span>
+                $250<span className="text-2xl text-gray-400">/hr</span>
               </p>
               <p className="text-gray-400">For strategic planning, system architecture, and hands-on development.</p>
             </div>
