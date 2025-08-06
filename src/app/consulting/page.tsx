@@ -44,8 +44,8 @@ export default function ConsultingPage() {
               </li>
               
               <li className="bg-gray-800 p-6 rounded-lg border border-gray-700">
-                <h3 className="text-xl font-bold text-teal-300">Compliance Auditing via Vision/AR</h3>
-                <p className="mt-2 text-gray-400 text-base">Deploy custom computer vision and AR models to perform real-time regulatory and safety audits, dramatically reducing manual oversight and ensuring verifiable compliance.</p>
+                <h3 className="text-xl font-bold text-teal-300">Automated Technical Support</h3>
+                <p className="mt-2 text-gray-400 text-base">Develop intelligent support systems that troubleshoot issues, resolve technical problems, and deliver consistent assistance without human intervention.</p>
               </li>
               
               <li className="bg-gray-800 p-6 rounded-lg border border-gray-700">
