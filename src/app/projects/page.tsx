@@ -45,7 +45,7 @@ export default function ProjectsPage() {
             </div>
             <div className="mt-6">
               {/* THIS LINK IS NOW LIVE */}
-              <a href="https://stream-guru.vercel.app/" target="_blank" rel="noopener noreferrer" className="bg-purple-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-purple-700 transition-colors">
+              <a href="https://www.streamguru.online/" target="_blank" rel="noopener noreferrer" className="bg-purple-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-purple-700 transition-colors">
                 View Live Demo
               </a>
             </div>
